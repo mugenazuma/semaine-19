@@ -1,0 +1,47 @@
+body{
+    background: #4badbe77;                /*fond de la page*/
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;                        /*marge*/
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1fd;          /*fond du formulaire*/
+    background: rgb(42, 135, 197);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;                             /*taille du titre*/
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {    /*contour de chaque champs*/
+    width: 100%;
+    padding: 19px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(12, 1, 1);
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #af5353;      /*couleur bouton de connexion*/
+    color: rgb(15, 1, 1);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {      
+    background-color: black;
+    color: #7653af;
+    border: 1px solid #060214;
+}
